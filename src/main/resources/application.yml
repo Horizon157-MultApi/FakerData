@@ -1,0 +1,14 @@
+
+server:
+  port: 8082
+  tomcat:
+    uri-encoding: utf-8
+
+spring:
+  datasource:
+    url: jdbc:mysql://database.localhost.com:3306/api_site?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: api_site
+    password: bL5a2xNj8cWNza36
+
+# DataSource Config
